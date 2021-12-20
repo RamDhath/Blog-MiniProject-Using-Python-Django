@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+font-family:'poppins', sans-serif;
+}
+
+.main-container{
+position:relative;
+top:200px;
+left:300px;
+border-radius:10px;
+width:1000px;
+padding:20px;
+/*background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);*/
+background-color: #A9C9FF;
+background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+
+display:flex;
+justify-content:space-around;
+}
+
+h3{
+margin-bottom:15px;
+}
+
+input{
+border-radius:3px;
+width:210px;
+height:35px;
+margin-bottom:10px;
+border:none;
+}
+
+button{
+width:70px;
+border-radius:10px;
+border:none;
+height:30px;
+color:white;
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+transition: 1.3s;
+cursor:pointer;
+}
+
+button:hover{
+background-color: #0093E9;
+background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 100%);
+}

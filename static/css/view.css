@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+font-family:'poppins', sans-serif;
+}
+
+body{
+max-width:100%;
+}
+
+.view-container{
+position:relative;
+top:20px;
+left:30px;
+max-width:1420px;
+padding-left:50px;
+
+height:100vh;
+}
+
+label{
+font-weight:600;
+font-size:18px;
+}
+
+Select{
+border:1px solid dodgerblue;
+border-radius:10px;
+color:dodgerblue;
+height:30px;
+}
+
+Option{
+color:dodgerblue;
+}
+
+button{
+border:none;
+border-radius:10px;
+width:100px;
+background-color:dodgerblue;
+color:white;
+height:30px;
+}
+
+h3{
+font-size:25px;
+padding-top:20px;
+}
+
+img{
+border-radius:9px;
+}
+
+hr{
+position: relative;
+top:20px;
+border: none;
+height: 2px;
+background: black;
+margin-bottom: 50px;
+}
+
+a{
+text-decoration:none !important;
+color:black !important;
+}
